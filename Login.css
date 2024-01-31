@@ -1,0 +1,74 @@
+/* Login.css */
+
+.login-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #3498db; /* Border color matching the login button */
+  border-radius: 8px;
+  background-color: #ecf0f1; /* Light gray background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #3498db; /* Blue color for labels */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bdc3c7; /* Light border color */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-message {
+  color: #e74c3c;
+  margin-top: 10px;
+}
+
+.signup-link {
+  color: #3498db; /* Blue color for the signup link */
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+/* Add more styles as needed */

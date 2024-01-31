@@ -1,0 +1,45 @@
+/* Footer.css */
+
+.footer-container {
+  background-color: #34495e; /* Dark blue background color */
+  color: #ecf0f1; /* Light text color */
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section h3 {
+  color: #ecf0f1; /* Light text color for section titles */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #bdc3c7; /* Light text color for links */
+}
+
+.footer-section a:hover {
+  color: #ecf0f1; /* Light text color on hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}

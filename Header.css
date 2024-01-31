@@ -1,0 +1,41 @@
+/* Header.css */
+
+.header-container {
+  background-color: #333; /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff; /* Set your desired link color */
+  margin-right: 20px;
+}
+
+.search {
+  padding: 80px;
+  width: 500px;
+}
+
+.button {
+  background-color: #4caf50; /* Set your desired button background color */
+  color: #fff; /* Set your desired button text color */
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-btn {
+  background-color: #d9534f; /* Set your desired logout button background color */
+  color: #fff; /* Set your desired logout button text color */
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add more styles as needed */

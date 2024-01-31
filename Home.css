@@ -1,0 +1,151 @@
+.icon-con{
+font-size: 30px;
+height: 30px;
+width: 30px;
+color: red;
+}
+
+/* Header.css */
+
+.header-container {
+  background-color: #2c3e50; /* Dark blue background */
+  color: #ecf0f1; /* Light text color */
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ecf0f1; /* Light text color for links */
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.search {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #bdc3c7; /* Light border color */
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #3498db; /* Blue button color */
+  color: #ecf0f1; /* Light text color for button */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.logout-btn {
+  background-color: #e74c3c; /* Red button color for logout */
+  color: #ecf0f1; /* Light text color for button */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Add more styles as needed */
+/* Home.css */
+
+.add-product-link {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  text-decoration: none;
+  color: #3498db; /* Blue color for the link */
+}
+
+.add-product-icon {
+  margin-right: 5px;
+}
+
+.favorite-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #e74c3c; /* Red color for the heart icon */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Add more styles as needed */
+/* Home.css */
+
+body {
+  background-color: #f5f5f5; /* Light gray background for the entire page */
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.add-product-link {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff; /* White color for the link text */
+  background-color: #3498db; /* Blue background color for the link */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+.add-product-icon {
+  margin-right: 5px;
+}
+
+.favorite-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #e74c3c; /* Red color for the heart icon */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.card {
+  background-color: #fff; /* White background for cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd; /* Light border at the bottom of the image */
+}
+
+.card p, .card h3, .card h5 {
+  margin: 10px;
+}
+
+.card p {
+  color: #555; /* Dark gray text color for paragraphs */
+}
+
+.card h3 {
+  color: #e74c3c; /* Red text color for product description */
+}
+
+.card h5 {
+  color: #2ecc71; /* Green text color for product price */
+}
+
+/* Add more styles as needed */
